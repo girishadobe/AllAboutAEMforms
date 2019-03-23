@@ -89,8 +89,10 @@ public class GetMutualFundHistory {
 				outerMap.put("Results", map);
 				HashMap<String, Object> finalMap = new HashMap<String, Object>();
 				finalMap.put("FundDetails", outerMap);
+				HashMap<String, Object> responseMap = new HashMap<String, Object>();
+				finalMap.put("Response", finalMap);
 
-				return Response.ok(finalMap, MediaType.APPLICATION_JSON).build();
+				return Response.ok(responseMap, MediaType.APPLICATION_JSON).build();
 			} catch (Exception e) {
 
 			}
