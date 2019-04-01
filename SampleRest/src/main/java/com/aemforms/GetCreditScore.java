@@ -21,7 +21,7 @@ public class GetCreditScore {
 
 		if (ssn.equalsIgnoreCase("000")) {
 			ErrorResponse er = new ErrorResponse();
-			er.setMessage("Invalid Social Security Number");
+			er.setMessage("Invalid Social Security Number. Please enter valid SSN");
 			return Response.status(405).entity(er).build();
 		} else {
 			CreditScore cs = new CreditScore();
