@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/AEMFormsDocumentServices"/>
+    <filter root="/content/AEMFormsDocumentServices"/>
+    <filter root="/content/dam/AEMFormsDocumentServices"/>
+</workspaceFilter>
